@@ -1,0 +1,298 @@
+- generic [active] [ref=f4e1]:
+  - banner [ref=f4e2]:
+    - generic [ref=f4e3]:
+      - link "NextWebHosting" [ref=f4e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=f4e6]:
+        - link "Home" [ref=f4e7] [cursor=pointer]:
+          - /url: /
+        - link "Services" [ref=f4e8] [cursor=pointer]:
+          - /url: /services
+        - link "Portfolio" [ref=f4e9] [cursor=pointer]:
+          - /url: /portfolio
+        - link "About" [ref=f4e11] [cursor=pointer]:
+          - /url: /about
+        - link "Process" [ref=f4e12] [cursor=pointer]:
+          - /url: /process
+        - link "Pricing" [ref=f4e13] [cursor=pointer]:
+          - /url: /pricing
+        - link "FAQ" [ref=f4e14] [cursor=pointer]:
+          - /url: /faq
+        - link "Contact" [ref=f4e15] [cursor=pointer]:
+          - /url: /contact
+      - link "Get Started" [ref=f4e17] [cursor=pointer]:
+        - /url: /contact
+  - main [ref=f4e20]:
+    - generic [ref=f4e21]:
+      - generic [ref=f4e22]: Our Work
+      - heading "Featured Projects" [level=1] [ref=f4e23]
+      - paragraph [ref=f4e24]: Discover how we've helped businesses transform their digital presence with custom, high-performance web solutions.
+    - generic [ref=f4e26]:
+      - generic [ref=f4e27]:
+        - button "All" [ref=f4e28]
+        - button "Hospitality" [ref=f4e29]
+        - button "Healthcare" [ref=f4e30]
+        - button "Property" [ref=f4e31]
+        - button "Legal" [ref=f4e32]
+        - button "Creative" [ref=f4e33]
+        - button "Technology" [ref=f4e34]
+      - generic [ref=f4e35]:
+        - generic [ref=f4e36]:
+          - generic [ref=f4e37]:
+            - img "Gourmet Haven - Website designed by NextWebHosting" [ref=f4e38]
+            - generic [ref=f4e39]:
+              - link "View live demo of Gourmet Haven" [ref=f4e40] [cursor=pointer]:
+                - /url: "#"
+              - link "View source code of Gourmet Haven" [ref=f4e45] [cursor=pointer]:
+                - /url: "#"
+          - generic [ref=f4e48]:
+            - generic [ref=f4e50]:
+              - heading "Gourmet Haven" [level=3] [ref=f4e51]
+              - text: Hospitality
+            - paragraph [ref=f4e52]: A premium restaurant website featuring an interactive menu, online reservations, and beautiful food galleries.
+            - generic [ref=f4e53]:
+              - generic [ref=f4e54]:
+                - heading "Tech Stack" [level=4] [ref=f4e55]
+                - generic [ref=f4e56]:
+                  - generic [ref=f4e57]: Next.js
+                  - generic [ref=f4e58]: Tailwind CSS
+                  - generic [ref=f4e59]: Framer Motion
+              - generic [ref=f4e60]:
+                - heading "Key Features" [level=4] [ref=f4e61]
+                - list [ref=f4e62]:
+                  - listitem [ref=f4e63]: Real-time Booking
+                  - listitem [ref=f4e65]: CMS Integration
+                  - listitem [ref=f4e67]: Mobile Responsive
+        - generic [ref=f4e69]:
+          - generic [ref=f4e70]:
+            - img "FitCore Elite - Website designed by NextWebHosting" [ref=f4e71]
+            - generic [ref=f4e72]:
+              - link "View live demo of FitCore Elite" [ref=f4e73] [cursor=pointer]:
+                - /url: "#"
+              - link "View source code of FitCore Elite" [ref=f4e78] [cursor=pointer]:
+                - /url: "#"
+          - generic [ref=f4e81]:
+            - generic [ref=f4e83]:
+              - heading "FitCore Elite" [level=3] [ref=f4e84]
+              - text: Healthcare
+            - paragraph [ref=f4e85]: High-energy fitness center website with class scheduling, trainer profiles, and membership signups.
+            - generic [ref=f4e86]:
+              - generic [ref=f4e87]:
+                - heading "Tech Stack" [level=4] [ref=f4e88]
+                - generic [ref=f4e89]:
+                  - generic [ref=f4e90]: React
+                  - generic [ref=f4e91]: TypeScript
+                  - generic [ref=f4e92]: Tailwind CSS
+              - generic [ref=f4e93]:
+                - heading "Key Features" [level=4] [ref=f4e94]
+                - list [ref=f4e95]:
+                  - listitem [ref=f4e96]: Class Schedule
+                  - listitem [ref=f4e98]: Member Portal
+                  - listitem [ref=f4e100]: Payment Integration
+        - generic [ref=f4e102]:
+          - generic [ref=f4e103]:
+            - img "SmileCare Clinic - Website designed by NextWebHosting" [ref=f4e104]
+            - generic [ref=f4e105]:
+              - link "View live demo of SmileCare Clinic" [ref=f4e106] [cursor=pointer]:
+                - /url: "#"
+              - link "View source code of SmileCare Clinic" [ref=f4e111] [cursor=pointer]:
+                - /url: "#"
+          - generic [ref=f4e114]:
+            - generic [ref=f4e116]:
+              - heading "SmileCare Clinic" [level=3] [ref=f4e117]
+              - text: Healthcare
+            - paragraph [ref=f4e118]: Professional dental clinic website emphasizing trust, with patient forms and online appointment booking.
+            - generic [ref=f4e119]:
+              - generic [ref=f4e120]:
+                - heading "Tech Stack" [level=4] [ref=f4e121]
+                - generic [ref=f4e122]:
+                  - generic [ref=f4e123]: Next.js
+                  - generic [ref=f4e124]: React Hook Form
+                  - generic [ref=f4e125]: Tailwind CSS
+              - generic [ref=f4e126]:
+                - heading "Key Features" [level=4] [ref=f4e127]
+                - list [ref=f4e128]:
+                  - listitem [ref=f4e129]: Appointment Booking
+                  - listitem [ref=f4e131]: Patient Portal
+                  - listitem [ref=f4e133]: Secure Forms
+        - generic [ref=f4e135]:
+          - generic [ref=f4e136]:
+            - img "Prime Properties - Website designed by NextWebHosting" [ref=f4e137]
+            - generic [ref=f4e138]:
+              - link "View live demo of Prime Properties" [ref=f4e139] [cursor=pointer]:
+                - /url: "#"
+              - link "View source code of Prime Properties" [ref=f4e144] [cursor=pointer]:
+                - /url: "#"
+          - generic [ref=f4e147]:
+            - generic [ref=f4e149]:
+              - heading "Prime Properties" [level=3] [ref=f4e150]
+              - text: Property
+            - paragraph [ref=f4e151]: Modern real estate platform with advanced property search, virtual tours, and agent directories.
+            - generic [ref=f4e152]:
+              - generic [ref=f4e153]:
+                - heading "Tech Stack" [level=4] [ref=f4e154]
+                - generic [ref=f4e155]:
+                  - generic [ref=f4e156]: Next.js
+                  - generic [ref=f4e157]: TypeScript
+                  - generic [ref=f4e158]: Tailwind CSS
+              - generic [ref=f4e159]:
+                - heading "Key Features" [level=4] [ref=f4e160]
+                - list [ref=f4e161]:
+                  - listitem [ref=f4e162]: Advanced Search
+                  - listitem [ref=f4e164]: Map Integration
+                  - listitem [ref=f4e166]: Virtual Tours
+        - generic [ref=f4e168]:
+          - generic [ref=f4e169]:
+            - img "Justice Partners - Website designed by NextWebHosting" [ref=f4e170]
+            - generic [ref=f4e171]:
+              - link "View live demo of Justice Partners" [ref=f4e172] [cursor=pointer]:
+                - /url: "#"
+              - link "View source code of Justice Partners" [ref=f4e177] [cursor=pointer]:
+                - /url: "#"
+          - generic [ref=f4e180]:
+            - generic [ref=f4e182]:
+              - heading "Justice Partners" [level=3] [ref=f4e183]
+              - text: Legal
+            - paragraph [ref=f4e184]: Authoritative law firm website detailing practice areas, attorney credentials, and secure client intake.
+            - generic [ref=f4e185]:
+              - generic [ref=f4e186]:
+                - heading "Tech Stack" [level=4] [ref=f4e187]
+                - generic [ref=f4e188]:
+                  - generic [ref=f4e189]: React
+                  - generic [ref=f4e190]: Next.js
+                  - generic [ref=f4e191]: Tailwind CSS
+              - generic [ref=f4e192]:
+                - heading "Key Features" [level=4] [ref=f4e193]
+                - list [ref=f4e194]:
+                  - listitem [ref=f4e195]: Secure Contact
+                  - listitem [ref=f4e197]: Case Studies
+                  - listitem [ref=f4e199]: Blog Integration
+        - generic [ref=f4e201]:
+          - generic [ref=f4e202]:
+            - img "Creative Studio - Website designed by NextWebHosting" [ref=f4e203]
+            - generic [ref=f4e204]:
+              - link "View live demo of Creative Studio" [ref=f4e205] [cursor=pointer]:
+                - /url: "#"
+              - link "View source code of Creative Studio" [ref=f4e210] [cursor=pointer]:
+                - /url: "#"
+          - generic [ref=f4e213]:
+            - generic [ref=f4e215]:
+              - heading "Creative Studio" [level=3] [ref=f4e216]
+              - text: Creative
+            - paragraph [ref=f4e217]: A visually stunning portfolio for a design agency showcasing their best work with smooth page transitions.
+            - generic [ref=f4e218]:
+              - generic [ref=f4e219]:
+                - heading "Tech Stack" [level=4] [ref=f4e220]
+                - generic [ref=f4e221]:
+                  - generic [ref=f4e222]: Next.js
+                  - generic [ref=f4e223]: Framer Motion
+                  - generic [ref=f4e224]: Tailwind CSS
+              - generic [ref=f4e225]:
+                - heading "Key Features" [level=4] [ref=f4e226]
+                - list [ref=f4e227]:
+                  - listitem [ref=f4e228]: Custom Animations
+                  - listitem [ref=f4e230]: Gallery View
+                  - listitem [ref=f4e232]: Image Optimization
+        - generic [ref=f4e234]:
+          - generic [ref=f4e235]:
+            - img "TechFlow SaaS - Website designed by NextWebHosting" [ref=f4e236]
+            - generic [ref=f4e237]:
+              - link "View live demo of TechFlow SaaS" [ref=f4e238] [cursor=pointer]:
+                - /url: "#"
+              - link "View source code of TechFlow SaaS" [ref=f4e243] [cursor=pointer]:
+                - /url: "#"
+          - generic [ref=f4e246]:
+            - generic [ref=f4e248]:
+              - heading "TechFlow SaaS" [level=3] [ref=f4e249]
+              - text: Technology
+            - paragraph [ref=f4e250]: Sleek landing page and dashboard for a modern SaaS startup, focused on conversions and user experience.
+            - generic [ref=f4e251]:
+              - generic [ref=f4e252]:
+                - heading "Tech Stack" [level=4] [ref=f4e253]
+                - generic [ref=f4e254]:
+                  - generic [ref=f4e255]: Next.js
+                  - generic [ref=f4e256]: Tailwind CSS
+                  - generic [ref=f4e257]: TypeScript
+              - generic [ref=f4e258]:
+                - heading "Key Features" [level=4] [ref=f4e259]
+                - list [ref=f4e260]:
+                  - listitem [ref=f4e261]: Auth Integration
+                  - listitem [ref=f4e263]: Pricing Tables
+                  - listitem [ref=f4e265]: Dashboard UI
+  - contentinfo [ref=f4e267]:
+    - generic [ref=f4e268]:
+      - generic [ref=f4e269]:
+        - generic [ref=f4e270]:
+          - link "NextWebHosting" [ref=f4e271] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=f4e272]: Premium Web Development Agency — Helping businesses establish a modern online presence through high-quality websites that are fast, responsive, accessible, scalable, and SEO-friendly.
+          - generic [ref=f4e273]:
+            - heading "Subscribe to Our Newsletter" [level=4] [ref=f4e274]
+            - generic [ref=f4e275]:
+              - textbox "Email address for newsletter" [ref=f4e276]:
+                - /placeholder: Enter your email
+              - button "Subscribe" [ref=f4e277]
+        - generic [ref=f4e278]:
+          - heading "Services" [level=3] [ref=f4e279]
+          - list [ref=f4e280]:
+            - listitem [ref=f4e281]:
+              - link "Business Websites" [ref=f4e282] [cursor=pointer]:
+                - /url: /services#business
+            - listitem [ref=f4e283]:
+              - link "Portfolio Websites" [ref=f4e284] [cursor=pointer]:
+                - /url: /services#portfolio
+            - listitem [ref=f4e285]:
+              - link "Landing Pages" [ref=f4e286] [cursor=pointer]:
+                - /url: /services#landing
+            - listitem [ref=f4e287]:
+              - link "SEO Optimization" [ref=f4e288] [cursor=pointer]:
+                - /url: /services#seo
+            - listitem [ref=f4e289]:
+              - link "Website Redesign" [ref=f4e290] [cursor=pointer]:
+                - /url: /services#redesign
+        - generic [ref=f4e291]:
+          - heading "Company" [level=3] [ref=f4e292]
+          - list [ref=f4e293]:
+            - listitem [ref=f4e294]:
+              - link "About" [ref=f4e295] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f4e296]:
+              - link "Process" [ref=f4e297] [cursor=pointer]:
+                - /url: /process
+            - listitem [ref=f4e298]:
+              - link "Portfolio" [ref=f4e299] [cursor=pointer]:
+                - /url: /portfolio
+            - listitem [ref=f4e300]:
+              - link "Projects" [ref=f4e301] [cursor=pointer]:
+                - /url: /projects
+            - listitem [ref=f4e302]:
+              - link "Blog" [ref=f4e303] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=f4e304]:
+              - link "Contact" [ref=f4e305] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=f4e306]:
+          - heading "Contact" [level=3] [ref=f4e307]
+          - list [ref=f4e308]:
+            - listitem [ref=f4e309]:
+              - link "nextwebhosting.dev@gmail.com" [ref=f4e310] [cursor=pointer]:
+                - /url: mailto:nextwebhosting.dev@gmail.com
+            - listitem [ref=f4e315]:
+              - link "9579111964" [ref=f4e316] [cursor=pointer]:
+                - /url: tel:9579111964
+          - heading "Legal" [level=3] [ref=f4e319]
+          - list [ref=f4e320]:
+            - listitem [ref=f4e321]:
+              - link "Privacy Policy" [ref=f4e322] [cursor=pointer]:
+                - /url: /privacy
+            - listitem [ref=f4e323]:
+              - link "Terms & Conditions" [ref=f4e324] [cursor=pointer]:
+                - /url: /terms
+      - generic [ref=f4e325]:
+        - paragraph [ref=f4e326]: © 2026 NextWebHosting. All rights reserved.
+        - generic [ref=f4e327]:
+          - link "Follow us on X (Twitter)" [ref=f4e328] [cursor=pointer]:
+            - /url: https://x.com/nextwebhosting
+          - link "Follow us on Instagram" [ref=f4e331] [cursor=pointer]:
+            - /url: https://www.instagram.com/nextwebhosting.dev
+  - button "Open Next.js Dev Tools" [ref=f4e340] [cursor=pointer]

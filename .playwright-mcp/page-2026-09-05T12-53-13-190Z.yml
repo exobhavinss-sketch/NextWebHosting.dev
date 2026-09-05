@@ -1,0 +1,451 @@
+- generic [ref=f5e1]:
+  - banner [aria-hidden] [ref=f5e2]:
+    - generic [ref=f5e3]:
+      - link [ref=f5e631] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f5e5]: NextWebHosting
+      - button [ref=f5e632]
+  - main [ref=f5e9]:
+    - generic [ref=f5e13]:
+      - generic [ref=f5e14]: Premium Web Development Agency
+      - heading [level=1] [ref=f5e633]:
+        - text: We Build Premium Websites That
+        - generic [ref=f5e20]: Convert
+      - paragraph [ref=f5e23]: Helping businesses establish a modern online presence through high-quality websites that are fast, responsive, accessible, scalable, and SEO-friendly.
+      - generic [ref=f5e24]:
+        - link [ref=f5e634] [cursor=pointer]:
+          - /url: /contact
+          - text: Start Your Project
+        - link [ref=f5e635] [cursor=pointer]:
+          - /url: /portfolio
+          - text: View Our Work
+      - generic [ref=f5e29]:
+        - generic [ref=f5e34]:
+          - paragraph [ref=f5e35]: Lightning Fast
+          - paragraph [ref=f5e36]: 95+ Performance
+        - generic [ref=f5e41]:
+          - paragraph [ref=f5e42]: Fully Accessible
+          - paragraph [ref=f5e43]: WCAG 2.2
+    - generic [ref=f5e45]:
+      - generic [ref=f5e46]:
+        - generic [ref=f5e47]: Our Services
+        - heading [level=2] [ref=f5e636]: Everything You Need to Build a Powerful Online Presence
+        - paragraph [ref=f5e50]: From design to deployment, we handle every aspect of your web development project with precision and care.
+      - generic [ref=f5e51]:
+        - generic [ref=f5e52]:
+          - heading [level=3] [ref=f5e637]: Business Websites
+          - paragraph [ref=f5e58]: Professional websites designed to establish credibility and convert visitors into customers.
+        - generic [ref=f5e59]:
+          - heading [level=3] [ref=f5e638]: UI/UX Design
+          - paragraph [ref=f5e68]: Beautiful, intuitive interfaces crafted with attention to detail and user experience best practices.
+        - generic [ref=f5e69]:
+          - heading [level=3] [ref=f5e639]: Custom Development
+          - paragraph [ref=f5e76]: Tailored web solutions built with modern technologies for optimal performance and scalability.
+        - generic [ref=f5e77]:
+          - heading [level=3] [ref=f5e640]: SEO Optimization
+          - paragraph [ref=f5e83]: Strategic search engine optimization to improve visibility and drive organic traffic to your website.
+        - generic [ref=f5e84]:
+          - heading [level=3] [ref=f5e641]: Performance
+          - paragraph [ref=f5e90]: Blazing-fast websites optimized for Core Web Vitals with 95+ Lighthouse performance scores.
+        - generic [ref=f5e91]:
+          - heading [level=3] [ref=f5e642]: Responsive Design
+          - paragraph [ref=f5e96]: Pixel-perfect designs that look stunning and work flawlessly across all devices and screen sizes.
+        - generic [ref=f5e97]:
+          - heading [level=3] [ref=f5e643]: Maintenance
+          - paragraph [ref=f5e102]: Ongoing website maintenance, updates, and support to keep your online presence running smoothly.
+        - generic [ref=f5e103]:
+          - heading [level=3] [ref=f5e644]: Deployment
+          - paragraph [ref=f5e111]: Seamless deployment and hosting setup with CI/CD pipelines for hassle-free launches.
+        - generic [ref=f5e112]:
+          - heading [level=3] [ref=f5e645]: Accessibility
+          - paragraph [ref=f5e117]: WCAG 2.2 compliant websites ensuring your content is accessible to all users, including those with disabilities.
+      - link [ref=f5e646] [cursor=pointer]:
+        - /url: /services
+        - text: Explore All Services
+    - generic [ref=f5e123]:
+      - generic [ref=f5e124]:
+        - generic [ref=f5e125]: Our Work
+        - heading [level=2] [ref=f5e647]: Featured Projects
+        - paragraph [ref=f5e128]: A showcase of premium websites we've designed and developed for businesses across various industries.
+      - generic [ref=f5e129]:
+        - generic [ref=f5e130]:
+          - generic [ref=f5e131]:
+            - generic [ref=f5e134]: Hospitality
+            - generic [ref=f5e136]:
+              - generic [ref=f5e137]: Live Demo
+              - generic [ref=f5e142]: Source
+          - generic [ref=f5e145]:
+            - heading [level=3] [ref=f5e649]: Restaurant Website
+            - paragraph [ref=f5e147]: An elegant, dark-themed restaurant website with online reservation system, menu showcase, and immersive food photography layout.
+            - generic [ref=f5e148]:
+              - generic [ref=f5e149]: Next.js
+              - generic [ref=f5e150]: React
+              - generic [ref=f5e151]: Tailwind CSS
+              - generic [ref=f5e152]: Framer Motion
+        - generic [ref=f5e153]:
+          - generic [ref=f5e154]:
+            - generic [ref=f5e157]: Health & Fitness
+            - generic [ref=f5e159]:
+              - generic [ref=f5e160]: Live Demo
+              - generic [ref=f5e165]: Source
+          - generic [ref=f5e168]:
+            - heading [level=3] [ref=f5e651]: Gym & Fitness
+            - paragraph [ref=f5e170]: A bold, energetic fitness website with membership plans, class schedules, trainer profiles, and dynamic animations.
+            - generic [ref=f5e171]:
+              - generic [ref=f5e172]: Next.js
+              - generic [ref=f5e173]: TypeScript
+              - generic [ref=f5e174]: Tailwind CSS
+              - generic [ref=f5e175]: shadcn/ui
+        - generic [ref=f5e176]:
+          - generic [ref=f5e177]:
+            - generic [ref=f5e180]: Healthcare
+            - generic [ref=f5e182]:
+              - generic [ref=f5e183]: Live Demo
+              - generic [ref=f5e188]: Source
+          - generic [ref=f5e191]:
+            - heading [level=3] [ref=f5e653]: Dental Clinic
+            - paragraph [ref=f5e193]: A clean, trustworthy dental clinic website with appointment booking, service listings, and a calming, professional aesthetic.
+            - generic [ref=f5e194]:
+              - generic [ref=f5e195]: Next.js
+              - generic [ref=f5e196]: React
+              - generic [ref=f5e197]: Tailwind CSS
+              - generic [ref=f5e198]: React Hook Form
+        - generic [ref=f5e199]:
+          - generic [ref=f5e200]:
+            - generic [ref=f5e203]: Property
+            - generic [ref=f5e205]:
+              - generic [ref=f5e206]: Live Demo
+              - generic [ref=f5e211]: Source
+          - generic [ref=f5e214]:
+            - heading [level=3] [ref=f5e655]: Real Estate
+            - paragraph [ref=f5e216]: A luxury real estate platform with property search, listing cards, location maps, and agent profiles.
+            - generic [ref=f5e217]:
+              - generic [ref=f5e218]: Next.js
+              - generic [ref=f5e219]: TypeScript
+              - generic [ref=f5e220]: Tailwind CSS
+              - generic [ref=f5e221]: Framer Motion
+      - link [ref=f5e656] [cursor=pointer]:
+        - /url: /portfolio
+        - text: View All Projects
+    - generic [ref=f5e228]:
+      - generic [ref=f5e229]:
+        - generic [ref=f5e230]: Our Process
+        - heading [level=2] [ref=f5e657]: How We Build Your Website
+        - paragraph [ref=f5e233]: A proven, structured approach to delivering premium websites on time and within scope.
+      - generic [ref=f5e234]:
+        - generic [ref=f5e236]:
+          - generic [ref=f5e237]:
+            - generic [ref=f5e238]: "1"
+            - heading [level=3] [ref=f5e658]: Discovery
+          - paragraph [ref=f5e244]: We start by understanding your business, goals, target audience, and competitors. This phase shapes the entire project direction.
+        - generic [ref=f5e246]:
+          - generic [ref=f5e247]:
+            - generic [ref=f5e248]: "2"
+            - heading [level=3] [ref=f5e659]: Design
+          - paragraph [ref=f5e256]: We create wireframes and visual designs that align with your brand identity. Every pixel is placed with purpose and intention.
+        - generic [ref=f5e258]:
+          - generic [ref=f5e259]:
+            - generic [ref=f5e260]: "3"
+            - heading [level=3] [ref=f5e660]: Development
+          - paragraph [ref=f5e267]: Our engineers build your website using modern technologies, ensuring clean code, optimal performance, and scalability.
+        - generic [ref=f5e269]:
+          - generic [ref=f5e270]:
+            - generic [ref=f5e271]: "4"
+            - heading [level=3] [ref=f5e661]: Testing
+          - paragraph [ref=f5e276]: Rigorous testing across devices, browsers, and screen sizes. We check accessibility, performance, and SEO before launch.
+        - generic [ref=f5e278]:
+          - generic [ref=f5e279]:
+            - generic [ref=f5e280]: "5"
+            - heading [level=3] [ref=f5e662]: Launch
+          - paragraph [ref=f5e288]: We deploy your website, configure analytics, and provide documentation. Post-launch support ensures a smooth transition.
+    - generic [ref=f5e290]:
+      - generic [ref=f5e291]:
+        - generic [ref=f5e292]: Technology
+        - heading [level=2] [ref=f5e663]: Built With the Best Tools
+        - paragraph [ref=f5e295]: We use industry-leading technologies to build fast, scalable, and maintainable websites.
+      - generic [ref=f5e296]:
+        - generic [ref=f5e297]:
+          - generic [ref=f5e298]: "N"
+          - heading [level=3] [ref=f5e664]: Next.js
+          - paragraph [ref=f5e301]: React framework for production
+          - generic [ref=f5e302]: Framework
+        - generic [ref=f5e303]:
+          - generic [ref=f5e304]: R
+          - heading [level=3] [ref=f5e665]: React
+          - paragraph [ref=f5e307]: UI component library
+          - generic [ref=f5e308]: Library
+        - generic [ref=f5e309]:
+          - generic [ref=f5e310]: T
+          - heading [level=3] [ref=f5e666]: TypeScript
+          - paragraph [ref=f5e313]: Type-safe JavaScript
+          - generic [ref=f5e314]: Language
+        - generic [ref=f5e315]:
+          - generic [ref=f5e316]: T
+          - heading [level=3] [ref=f5e667]: Tailwind CSS
+          - paragraph [ref=f5e319]: Utility-first CSS framework
+          - generic [ref=f5e320]: Styling
+        - generic [ref=f5e321]:
+          - generic [ref=f5e322]: F
+          - heading [level=3] [ref=f5e668]: Framer Motion
+          - paragraph [ref=f5e325]: Production-grade animations
+          - generic [ref=f5e326]: Animation
+        - generic [ref=f5e327]:
+          - generic [ref=f5e328]: s
+          - heading [level=3] [ref=f5e669]: shadcn/ui
+          - paragraph [ref=f5e331]: Accessible UI components
+          - generic [ref=f5e332]: Components
+        - generic [ref=f5e333]:
+          - generic [ref=f5e334]: V
+          - heading [level=3] [ref=f5e670]: Vercel
+          - paragraph [ref=f5e337]: Edge-optimized hosting
+          - generic [ref=f5e338]: Deployment
+        - generic [ref=f5e339]:
+          - generic [ref=f5e340]: G
+          - heading [level=3] [ref=f5e671]: GitHub
+          - paragraph [ref=f5e343]: Collaborative development
+          - generic [ref=f5e344]: Version Control
+    - generic [ref=f5e349]:
+      - generic [ref=f5e350]:
+        - generic [ref=f5e351]: Why Choose Us
+        - heading [level=2] [ref=f5e672]: Why Businesses Trust NextWebHosting
+        - paragraph [ref=f5e354]: We combine technical excellence with design thinking to deliver websites that genuinely serve your business goals.
+      - generic [ref=f5e355]:
+        - generic [ref=f5e362]:
+          - heading [level=3] [ref=f5e673]: Modern Technology
+          - paragraph [ref=f5e364]: We use the latest frameworks and tools — Next.js, React, TypeScript, and Tailwind CSS — to build websites that are fast and future-proof.
+        - generic [ref=f5e369]:
+          - heading [level=3] [ref=f5e674]: Performance First
+          - paragraph [ref=f5e371]: Every website we build targets 95+ Lighthouse scores across performance, accessibility, SEO, and best practices.
+        - generic [ref=f5e379]:
+          - heading [level=3] [ref=f5e675]: User-Centric Design
+          - paragraph [ref=f5e381]: We design with your users in mind. Beautiful interfaces that are intuitive, accessible, and optimized for conversions.
+        - generic [ref=f5e387]:
+          - heading [level=3] [ref=f5e676]: SEO Optimized
+          - paragraph [ref=f5e389]: Built-in SEO best practices including structured data, meta tags, sitemaps, and Core Web Vitals optimization.
+        - generic [ref=f5e394]:
+          - heading [level=3] [ref=f5e677]: Accessible & Inclusive
+          - paragraph [ref=f5e396]: WCAG 2.2 compliant websites with proper ARIA labels, keyboard navigation, color contrast, and screen reader support.
+        - generic [ref=f5e401]:
+          - heading [level=3] [ref=f5e678]: Ongoing Support
+          - paragraph [ref=f5e403]: We don't disappear after launch. We provide ongoing maintenance, updates, and technical support to keep your site running smoothly.
+    - generic [ref=f5e405]:
+      - generic [ref=f5e406]:
+        - generic [ref=f5e407]: Testimonials
+        - heading [level=2] [ref=f5e679]: What Our Approach Delivers
+        - paragraph [ref=f5e410]: We let our work speak for itself. Here's what our development process is designed to achieve for every client.
+      - generic [ref=f5e411]:
+        - generic [ref=f5e412]:
+          - paragraph [ref=f5e416]: “Every website we build is designed to load in under 2 seconds, score 95+ on Lighthouse, and provide a seamless experience across all devices.”
+          - generic [ref=f5e417]:
+            - paragraph [ref=f5e418]: Performance Promise
+            - paragraph [ref=f5e419]: NextWebHosting Standard
+        - generic [ref=f5e420]:
+          - paragraph [ref=f5e424]: “We follow WCAG 2.2 guidelines, implement proper semantic HTML, and test with screen readers to ensure your website is accessible to everyone.”
+          - generic [ref=f5e425]:
+            - paragraph [ref=f5e426]: Accessibility Commitment
+            - paragraph [ref=f5e427]: NextWebHosting Standard
+        - generic [ref=f5e428]:
+          - paragraph [ref=f5e432]: “From structured data to Core Web Vitals optimization, every website we build is engineered to rank well and attract organic traffic.”
+          - generic [ref=f5e433]:
+            - paragraph [ref=f5e434]: SEO Standards
+            - paragraph [ref=f5e435]: NextWebHosting Standard
+      - paragraph [ref=f5e436]: Client testimonials will be displayed here once available. We believe in earning trust through genuine results, not fabricated reviews.
+    - generic [ref=f5e438]:
+      - generic [ref=f5e439]:
+        - generic [ref=f5e440]: FAQ
+        - heading [level=2] [ref=f5e680]: Frequently Asked Questions
+        - paragraph [ref=f5e443]: Answers to common questions about our web development services, process, and pricing.
+      - generic [ref=f5e446]:
+        - heading [level=3] [ref=f5e681]:
+          - button [ref=f5e682]: What technologies do you use to build websites?
+        - heading [level=3] [ref=f5e683]:
+          - button [ref=f5e684]: How long does it take to build a website?
+        - heading [level=3] [ref=f5e685]:
+          - button [ref=f5e686]: Do you provide ongoing maintenance and support?
+        - heading [level=3] [ref=f5e687]:
+          - button [ref=f5e688]: Will my website be mobile-friendly?
+        - heading [level=3] [ref=f5e689]:
+          - button [ref=f5e690]: Do you handle SEO optimization?
+        - heading [level=3] [ref=f5e691]:
+          - button [ref=f5e692]: Can you redesign my existing website?
+    - generic [ref=f5e478]:
+      - generic [ref=f5e479]:
+        - generic [ref=f5e480]: Contact Us
+        - heading [level=2] [ref=f5e693]: Get in Touch
+        - paragraph [ref=f5e483]: Have a project in mind? We'd love to hear about it. Send us a message and we'll get back to you as soon as possible.
+      - generic [ref=f5e484]:
+        - generic [ref=f5e485]:
+          - generic [ref=f5e486]:
+            - heading [level=3] [ref=f5e694]: Let's talk about your project
+            - paragraph [ref=f5e488]: Whether you need a brand new website, a redesign, or ongoing maintenance, we're here to help. Reach out through any of these channels.
+          - generic [ref=f5e489]:
+            - link [ref=f5e695] [cursor=pointer]:
+              - /url: mailto:nextwebhosting.dev@gmail.com
+              - generic [ref=f5e495]:
+                - paragraph [ref=f5e496]: Email
+                - paragraph [ref=f5e497]: nextwebhosting.dev@gmail.com
+            - link [ref=f5e696] [cursor=pointer]:
+              - /url: tel:9579111964
+              - generic [ref=f5e502]:
+                - paragraph [ref=f5e503]: Phone
+                - paragraph [ref=f5e504]: "9579111964"
+            - link [ref=f5e697] [cursor=pointer]:
+              - /url: https://www.instagram.com/nextwebhosting.dev
+              - generic [ref=f5e510]:
+                - paragraph [ref=f5e511]: Instagram
+                - paragraph [ref=f5e512]: "@nextwebhosting.dev"
+          - paragraph [ref=f5e518]: Map will be displayed here
+        - generic [ref=f5e520]:
+          - generic [ref=f5e521]:
+            - generic [ref=f5e522]:
+              - generic [ref=f5e523]: Full Name
+              - textbox [ref=f5e698]:
+                - /placeholder: John Doe
+            - generic [ref=f5e525]:
+              - generic [ref=f5e526]: Email Address
+              - textbox [ref=f5e699]:
+                - /placeholder: john@example.com
+          - generic [ref=f5e528]:
+            - generic [ref=f5e529]: Subject
+            - textbox [ref=f5e700]:
+              - /placeholder: I need a website for my business
+          - generic [ref=f5e531]:
+            - generic [ref=f5e532]: Message
+            - textbox [ref=f5e701]:
+              - /placeholder: Tell us about your project, goals, and timeline...
+          - button [ref=f5e702]: Send Message
+    - generic [ref=f5e541]:
+      - generic [ref=f5e542]: Ready to Get Started?
+      - heading [level=2] [ref=f5e703]: Let's Build Something Amazing Together
+      - paragraph [ref=f5e545]: Ready to take your online presence to the next level? Get in touch with us today and let's discuss how we can help your business grow.
+      - generic [ref=f5e546]:
+        - link [ref=f5e704] [cursor=pointer]:
+          - /url: /contact
+          - text: Start Your Project
+        - link [ref=f5e705] [cursor=pointer]:
+          - /url: mailto:nextwebhosting.dev@gmail.com
+          - text: Email Us
+  - contentinfo [aria-hidden] [ref=f5e554]:
+    - generic [ref=f5e555]:
+      - generic [ref=f5e556]:
+        - generic [ref=f5e557]:
+          - link [ref=f5e706] [cursor=pointer]:
+            - /url: /
+            - text: NextWebHosting
+          - paragraph [ref=f5e559]: Premium Web Development Agency — Helping businesses establish a modern online presence through high-quality websites that are fast, responsive, accessible, scalable, and SEO-friendly.
+          - generic [ref=f5e560]:
+            - heading [level=4] [ref=f5e707]: Subscribe to Our Newsletter
+            - generic [ref=f5e562]:
+              - textbox [ref=f5e708]:
+                - /placeholder: Enter your email
+              - button [ref=f5e709]: Subscribe
+        - generic [ref=f5e565]:
+          - heading [level=3] [ref=f5e710]: Services
+          - list [ref=f5e567]:
+            - listitem [ref=f5e568]:
+              - link [ref=f5e711] [cursor=pointer]:
+                - /url: /services#business
+                - text: Business Websites
+            - listitem [ref=f5e570]:
+              - link [ref=f5e712] [cursor=pointer]:
+                - /url: /services#portfolio
+                - text: Portfolio Websites
+            - listitem [ref=f5e572]:
+              - link [ref=f5e713] [cursor=pointer]:
+                - /url: /services#landing
+                - text: Landing Pages
+            - listitem [ref=f5e574]:
+              - link [ref=f5e714] [cursor=pointer]:
+                - /url: /services#seo
+                - text: SEO Optimization
+            - listitem [ref=f5e576]:
+              - link [ref=f5e715] [cursor=pointer]:
+                - /url: /services#redesign
+                - text: Website Redesign
+        - generic [ref=f5e578]:
+          - heading [level=3] [ref=f5e716]: Company
+          - list [ref=f5e580]:
+            - listitem [ref=f5e581]:
+              - link [ref=f5e717] [cursor=pointer]:
+                - /url: /about
+                - text: About
+            - listitem [ref=f5e583]:
+              - link [ref=f5e718] [cursor=pointer]:
+                - /url: /process
+                - text: Process
+            - listitem [ref=f5e585]:
+              - link [ref=f5e719] [cursor=pointer]:
+                - /url: /portfolio
+                - text: Portfolio
+            - listitem [ref=f5e587]:
+              - link [ref=f5e720] [cursor=pointer]:
+                - /url: /projects
+                - text: Projects
+            - listitem [ref=f5e589]:
+              - link [ref=f5e721] [cursor=pointer]:
+                - /url: /blog
+                - text: Blog
+            - listitem [ref=f5e591]:
+              - link [ref=f5e722] [cursor=pointer]:
+                - /url: /contact
+                - text: Contact
+        - generic [ref=f5e593]:
+          - heading [level=3] [ref=f5e723]: Contact
+          - list [ref=f5e595]:
+            - listitem [ref=f5e596]:
+              - link [ref=f5e724] [cursor=pointer]:
+                - /url: mailto:nextwebhosting.dev@gmail.com
+                - generic [ref=f5e601]: nextwebhosting.dev@gmail.com
+            - listitem [ref=f5e602]:
+              - link [ref=f5e725] [cursor=pointer]:
+                - /url: tel:9579111964
+                - text: "9579111964"
+          - heading [level=3] [ref=f5e726]: Legal
+          - list [ref=f5e607]:
+            - listitem [ref=f5e608]:
+              - link [ref=f5e727] [cursor=pointer]:
+                - /url: /privacy
+                - text: Privacy Policy
+            - listitem [ref=f5e610]:
+              - link [ref=f5e728] [cursor=pointer]:
+                - /url: /terms
+                - text: Terms & Conditions
+      - generic [ref=f5e612]:
+        - paragraph [ref=f5e613]: © 2026 NextWebHosting. All rights reserved.
+        - generic [ref=f5e614]:
+          - link [ref=f5e729] [cursor=pointer]:
+            - /url: https://x.com/nextwebhosting
+          - link [ref=f5e730] [cursor=pointer]:
+            - /url: https://www.instagram.com/nextwebhosting.dev
+  - button "Open Next.js Dev Tools" [ref=f5e627] [cursor=pointer]
+  - alert [ref=f5e731]
+  - dialog [ref=f5e735]:
+    - heading [level=2] [ref=f5e737]:
+      - link "NextWebHosting" [active] [ref=f5e738] [cursor=pointer]:
+        - /url: /
+    - navigation [ref=f5e739]:
+      - generic [ref=f5e740]:
+        - link "Home" [ref=f5e741] [cursor=pointer]:
+          - /url: /
+        - link "Services" [ref=f5e742] [cursor=pointer]:
+          - /url: /services
+        - link "Portfolio" [ref=f5e743] [cursor=pointer]:
+          - /url: /portfolio
+        - link "About" [ref=f5e744] [cursor=pointer]:
+          - /url: /about
+        - link "Process" [ref=f5e745] [cursor=pointer]:
+          - /url: /process
+        - link "Pricing" [ref=f5e746] [cursor=pointer]:
+          - /url: /pricing
+        - link "FAQ" [ref=f5e747] [cursor=pointer]:
+          - /url: /faq
+        - link "Contact" [ref=f5e748] [cursor=pointer]:
+          - /url: /contact
+    - generic [ref=f5e749]:
+      - generic [ref=f5e750]:
+        - link "Follow us on X (Twitter)" [ref=f5e751] [cursor=pointer]:
+          - /url: https://x.com/nextwebhosting
+        - link "Follow us on Instagram" [ref=f5e754] [cursor=pointer]:
+          - /url: https://www.instagram.com/nextwebhosting.dev
+      - paragraph [ref=f5e758]: © 2026 NextWebHosting. All rights reserved.
+    - button "Close" [ref=f5e759]

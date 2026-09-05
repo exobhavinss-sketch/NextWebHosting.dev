@@ -1,0 +1,284 @@
+- generic [active] [ref=f3e1]:
+  - banner [ref=f3e2]:
+    - generic [ref=f3e3]:
+      - link "NextWebHosting" [ref=f3e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=f3e6]:
+        - link "Home" [ref=f3e7] [cursor=pointer]:
+          - /url: /
+        - link "Services" [ref=f3e8] [cursor=pointer]:
+          - /url: /services
+        - link "Portfolio" [ref=f3e10] [cursor=pointer]:
+          - /url: /portfolio
+        - link "About" [ref=f3e11] [cursor=pointer]:
+          - /url: /about
+        - link "Process" [ref=f3e12] [cursor=pointer]:
+          - /url: /process
+        - link "Pricing" [ref=f3e13] [cursor=pointer]:
+          - /url: /pricing
+        - link "FAQ" [ref=f3e14] [cursor=pointer]:
+          - /url: /faq
+        - link "Contact" [ref=f3e15] [cursor=pointer]:
+          - /url: /contact
+      - link "Get Started" [ref=f3e17] [cursor=pointer]:
+        - /url: /contact
+  - main [ref=f3e20]:
+    - generic [ref=f3e21]:
+      - generic [ref=f3e22]: Our Offerings
+      - heading "Comprehensive Web Solutions" [level=1] [ref=f3e23]
+      - paragraph [ref=f3e24]: From complete web development to specialized optimization and infrastructure services, we provide everything you need to succeed online.
+    - generic [ref=f3e25]:
+      - generic [ref=f3e26]:
+        - generic [ref=f3e27]:
+          - heading "Web Development" [level=2] [ref=f3e28]
+          - paragraph [ref=f3e29]: Custom websites designed for specific industry needs.
+        - generic [ref=f3e30]:
+          - generic [ref=f3e31]:
+            - heading "Business Websites" [level=3] [ref=f3e36]
+            - paragraph [ref=f3e37]: Professional sites to establish your corporate presence.
+            - list [ref=f3e38]:
+              - listitem [ref=f3e39]: Custom Design
+              - listitem [ref=f3e41]: CMS Integration
+              - listitem [ref=f3e43]: Mobile Responsive
+              - listitem [ref=f3e45]: SEO Ready
+          - generic [ref=f3e47]:
+            - heading "Portfolio Websites" [level=3] [ref=f3e54]
+            - paragraph [ref=f3e55]: Showcase your work with stunning portfolio layouts.
+            - list [ref=f3e56]:
+              - listitem [ref=f3e57]: Image Galleries
+              - listitem [ref=f3e59]: Case Studies
+              - listitem [ref=f3e61]: Contact Forms
+              - listitem [ref=f3e63]: Fast Loading
+          - generic [ref=f3e65]:
+            - heading "Landing Pages" [level=3] [ref=f3e71]
+            - paragraph [ref=f3e72]: High-converting landing pages for your marketing campaigns.
+            - list [ref=f3e73]:
+              - listitem [ref=f3e74]: A/B Testing Ready
+              - listitem [ref=f3e76]: Lead Capture
+              - listitem [ref=f3e78]: Analytics Setup
+              - listitem [ref=f3e80]: Conversion Optimized
+          - generic [ref=f3e82]:
+            - heading "Startup Websites" [level=3] [ref=f3e89]
+            - paragraph [ref=f3e90]: Dynamic sites to launch your new venture.
+            - list [ref=f3e91]:
+              - listitem [ref=f3e92]: Scalable Architecture
+              - listitem [ref=f3e94]: Integration Ready
+              - listitem [ref=f3e96]: Modern Tech Stack
+              - listitem [ref=f3e98]: MVP Focused
+          - generic [ref=f3e100]:
+            - heading "Restaurant Sites" [level=3] [ref=f3e105]
+            - paragraph [ref=f3e106]: Appetizing designs with menu and reservation features.
+            - list [ref=f3e107]:
+              - listitem [ref=f3e108]: Online Menus
+              - listitem [ref=f3e110]: Reservation System
+              - listitem [ref=f3e112]: Location Maps
+              - listitem [ref=f3e114]: Social Media Integration
+          - generic [ref=f3e116]:
+            - heading "Real Estate Sites" [level=3] [ref=f3e122]
+            - paragraph [ref=f3e123]: Property listings with advanced search capabilities.
+            - list [ref=f3e124]:
+              - listitem [ref=f3e125]: Property Search
+              - listitem [ref=f3e127]: Virtual Tours
+              - listitem [ref=f3e129]: Agent Profiles
+              - listitem [ref=f3e131]: Lead Generation
+          - generic [ref=f3e133]:
+            - heading "Gym & Fitness" [level=3] [ref=f3e141]
+            - paragraph [ref=f3e142]: Energetic designs with class schedules and booking.
+            - list [ref=f3e143]:
+              - listitem [ref=f3e144]: Class Schedules
+              - listitem [ref=f3e146]: Membership Portal
+              - listitem [ref=f3e148]: Trainer Profiles
+              - listitem [ref=f3e150]: Video Integration
+          - generic [ref=f3e152]:
+            - heading "Dental Clinics" [level=3] [ref=f3e158]
+            - paragraph [ref=f3e159]: Professional sites with appointment scheduling.
+            - list [ref=f3e160]:
+              - listitem [ref=f3e161]: Appointment Booking
+              - listitem [ref=f3e163]: Patient Forms
+              - listitem [ref=f3e165]: Service Pages
+              - listitem [ref=f3e167]: Review Integration
+          - generic [ref=f3e169]:
+            - heading "Law Firms" [level=3] [ref=f3e175]
+            - paragraph [ref=f3e176]: Trust-building designs for legal practices.
+            - list [ref=f3e177]:
+              - listitem [ref=f3e178]: Practice Areas
+              - listitem [ref=f3e180]: Attorney Profiles
+              - listitem [ref=f3e182]: Secure Contact
+              - listitem [ref=f3e184]: Client Portal
+          - generic [ref=f3e186]:
+            - heading "Educational Sites" [level=3] [ref=f3e191]
+            - paragraph [ref=f3e192]: Platforms for schools, courses, and e-learning.
+            - list [ref=f3e193]:
+              - listitem [ref=f3e194]: Course Catalogs
+              - listitem [ref=f3e196]: Student Portal
+              - listitem [ref=f3e198]: Event Calendars
+              - listitem [ref=f3e200]: LMS Integration
+          - generic [ref=f3e202]:
+            - heading "Corporate Sites" [level=3] [ref=f3e207]
+            - paragraph [ref=f3e208]: Enterprise-grade websites for large organizations.
+            - list [ref=f3e209]:
+              - listitem [ref=f3e210]: Multi-language
+              - listitem [ref=f3e212]: Complex Architecture
+              - listitem [ref=f3e214]: Strict Security
+              - listitem [ref=f3e216]: Compliance Ready
+      - generic [ref=f3e218]:
+        - generic [ref=f3e219]:
+          - heading "Development Services" [level=2] [ref=f3e220]
+          - paragraph [ref=f3e221]: Keep your website fresh, secure, and up-to-date.
+        - generic [ref=f3e222]:
+          - generic [ref=f3e223]:
+            - heading "Website Redesign" [level=3] [ref=f3e229]
+            - paragraph [ref=f3e230]: Modernize your outdated website.
+            - list [ref=f3e231]:
+              - listitem [ref=f3e232]: UX/UI Audit
+              - listitem [ref=f3e234]: Brand Refresh
+              - listitem [ref=f3e236]: Content Migration
+              - listitem [ref=f3e238]: Performance Boost
+          - generic [ref=f3e240]:
+            - heading "Maintenance" [level=3] [ref=f3e244]
+            - paragraph [ref=f3e245]: Ongoing support and technical updates.
+            - list [ref=f3e246]:
+              - listitem [ref=f3e247]: Security Patches
+              - listitem [ref=f3e249]: Regular Backups
+              - listitem [ref=f3e251]: Uptime Monitoring
+              - listitem [ref=f3e253]: Content Updates
+      - generic [ref=f3e255]:
+        - generic [ref=f3e256]:
+          - heading "Optimization" [level=2] [ref=f3e257]
+          - paragraph [ref=f3e258]: Improve visibility and speed.
+        - generic [ref=f3e259]:
+          - generic [ref=f3e260]:
+            - heading "SEO Optimization" [level=3] [ref=f3e265]
+            - paragraph [ref=f3e266]: Rank higher on search engines.
+            - list [ref=f3e267]:
+              - listitem [ref=f3e268]: Keyword Research
+              - listitem [ref=f3e270]: On-page SEO
+              - listitem [ref=f3e272]: Technical SEO
+              - listitem [ref=f3e274]: Performance Tracking
+          - generic [ref=f3e276]:
+            - heading "Performance Tuning" [level=3] [ref=f3e280]
+            - paragraph [ref=f3e281]: Lightning-fast load times.
+            - list [ref=f3e282]:
+              - listitem [ref=f3e283]: Image Optimization
+              - listitem [ref=f3e285]: Code Minification
+              - listitem [ref=f3e287]: Caching Setup
+              - listitem [ref=f3e289]: Core Web Vitals
+      - generic [ref=f3e291]:
+        - generic [ref=f3e292]:
+          - heading "Infrastructure" [level=2] [ref=f3e293]
+          - paragraph [ref=f3e294]: Solid foundation for your digital presence.
+        - generic [ref=f3e295]:
+          - generic [ref=f3e296]:
+            - heading "Deployment" [level=3] [ref=f3e301]
+            - paragraph [ref=f3e302]: Smooth transition from development to live.
+            - list [ref=f3e303]:
+              - listitem [ref=f3e304]: CI/CD Pipeline
+              - listitem [ref=f3e306]: Staging Environment
+              - listitem [ref=f3e308]: Zero Downtime
+              - listitem [ref=f3e310]: Version Control
+          - generic [ref=f3e312]:
+            - heading "Cloud Hosting" [level=3] [ref=f3e317]
+            - paragraph [ref=f3e318]: Reliable and scalable hosting solutions.
+            - list [ref=f3e319]:
+              - listitem [ref=f3e320]: High Availability
+              - listitem [ref=f3e322]: Auto-scaling
+              - listitem [ref=f3e324]: DDoS Protection
+              - listitem [ref=f3e326]: SSL Certificates
+          - generic [ref=f3e328]:
+            - heading "Domain Management" [level=3] [ref=f3e333]
+            - paragraph [ref=f3e334]: Hassle-free domain registration and DNS.
+            - list [ref=f3e335]:
+              - listitem [ref=f3e336]: Domain Registration
+              - listitem [ref=f3e338]: DNS Configuration
+              - listitem [ref=f3e340]: Email Setup
+              - listitem [ref=f3e342]: Renewals
+          - generic [ref=f3e344]:
+            - heading "Consultation" [level=3] [ref=f3e348]
+            - paragraph [ref=f3e349]: Expert advice for your digital strategy.
+            - list [ref=f3e350]:
+              - listitem [ref=f3e351]: Tech Stack Review
+              - listitem [ref=f3e353]: Architecture Planning
+              - listitem [ref=f3e355]: Security Audit
+              - listitem [ref=f3e357]: Growth Strategy
+    - generic [ref=f3e360]:
+      - heading "Ready to Start Your Project?" [level=2] [ref=f3e361]
+      - paragraph [ref=f3e362]: Let's build something amazing together. Contact us today for a free consultation and project estimate.
+      - link "Get in Touch" [ref=f3e363] [cursor=pointer]:
+        - /url: /contact
+  - contentinfo [ref=f3e366]:
+    - generic [ref=f3e367]:
+      - generic [ref=f3e368]:
+        - generic [ref=f3e369]:
+          - link "NextWebHosting" [ref=f3e370] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=f3e371]: Premium Web Development Agency — Helping businesses establish a modern online presence through high-quality websites that are fast, responsive, accessible, scalable, and SEO-friendly.
+          - generic [ref=f3e372]:
+            - heading "Subscribe to Our Newsletter" [level=4] [ref=f3e373]
+            - generic [ref=f3e374]:
+              - textbox "Email address for newsletter" [ref=f3e375]:
+                - /placeholder: Enter your email
+              - button "Subscribe" [ref=f3e376]
+        - generic [ref=f3e377]:
+          - heading "Services" [level=3] [ref=f3e378]
+          - list [ref=f3e379]:
+            - listitem [ref=f3e380]:
+              - link "Business Websites" [ref=f3e381] [cursor=pointer]:
+                - /url: /services#business
+            - listitem [ref=f3e382]:
+              - link "Portfolio Websites" [ref=f3e383] [cursor=pointer]:
+                - /url: /services#portfolio
+            - listitem [ref=f3e384]:
+              - link "Landing Pages" [ref=f3e385] [cursor=pointer]:
+                - /url: /services#landing
+            - listitem [ref=f3e386]:
+              - link "SEO Optimization" [ref=f3e387] [cursor=pointer]:
+                - /url: /services#seo
+            - listitem [ref=f3e388]:
+              - link "Website Redesign" [ref=f3e389] [cursor=pointer]:
+                - /url: /services#redesign
+        - generic [ref=f3e390]:
+          - heading "Company" [level=3] [ref=f3e391]
+          - list [ref=f3e392]:
+            - listitem [ref=f3e393]:
+              - link "About" [ref=f3e394] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f3e395]:
+              - link "Process" [ref=f3e396] [cursor=pointer]:
+                - /url: /process
+            - listitem [ref=f3e397]:
+              - link "Portfolio" [ref=f3e398] [cursor=pointer]:
+                - /url: /portfolio
+            - listitem [ref=f3e399]:
+              - link "Projects" [ref=f3e400] [cursor=pointer]:
+                - /url: /projects
+            - listitem [ref=f3e401]:
+              - link "Blog" [ref=f3e402] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=f3e403]:
+              - link "Contact" [ref=f3e404] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=f3e405]:
+          - heading "Contact" [level=3] [ref=f3e406]
+          - list [ref=f3e407]:
+            - listitem [ref=f3e408]:
+              - link "nextwebhosting.dev@gmail.com" [ref=f3e409] [cursor=pointer]:
+                - /url: mailto:nextwebhosting.dev@gmail.com
+            - listitem [ref=f3e414]:
+              - link "9579111964" [ref=f3e415] [cursor=pointer]:
+                - /url: tel:9579111964
+          - heading "Legal" [level=3] [ref=f3e418]
+          - list [ref=f3e419]:
+            - listitem [ref=f3e420]:
+              - link "Privacy Policy" [ref=f3e421] [cursor=pointer]:
+                - /url: /privacy
+            - listitem [ref=f3e422]:
+              - link "Terms & Conditions" [ref=f3e423] [cursor=pointer]:
+                - /url: /terms
+      - generic [ref=f3e424]:
+        - paragraph [ref=f3e425]: © 2026 NextWebHosting. All rights reserved.
+        - generic [ref=f3e426]:
+          - link "Follow us on X (Twitter)" [ref=f3e427] [cursor=pointer]:
+            - /url: https://x.com/nextwebhosting
+          - link "Follow us on Instagram" [ref=f3e430] [cursor=pointer]:
+            - /url: https://www.instagram.com/nextwebhosting.dev
+  - button "Open Next.js Dev Tools" [ref=f3e439] [cursor=pointer]
