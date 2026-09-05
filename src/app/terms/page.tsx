@@ -16,7 +16,7 @@ export default function TermsPage() {
         <section className="container px-4 md:px-6 py-12 max-w-4xl mx-auto">
           <SectionHeader
             title="Terms & Conditions"
-            description="Last updated: October 2023"
+            description="Last updated: August 2026"
             align="left"
           />
 
