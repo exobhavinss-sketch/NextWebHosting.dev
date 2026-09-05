@@ -15,6 +15,8 @@ const projects = [
     description: "An elegant, dark-themed restaurant website with online reservation system, menu showcase, and immersive food photography layout.",
     image: "/images/portfolio-restaurant.jpg",
     technologies: ["Next.js", "React", "Tailwind CSS", "Framer Motion"],
+    liveUrl: "https://aurum-ember-sigma.vercel.app/",
+    githubUrl: "https://github.com/exobhavinss-sketch/Aurum-Ember",
   },
   {
     title: "Gym & Fitness",
@@ -167,14 +169,28 @@ export function FeaturedProjects() {
                 {/* Hover overlay */}
                 <div className="absolute inset-0 bg-primary/80 opacity-0 group-hover:opacity-90 transition-opacity duration-500 flex items-center justify-center">
                   <div className="flex gap-4">
-                    <span className="inline-flex items-center gap-2 px-4 py-2 bg-white text-primary rounded-lg font-medium text-sm">
-                      <ExternalLink className="w-4 h-4" />
-                      Live Demo
-                    </span>
-                    <span className="inline-flex items-center gap-2 px-4 py-2 bg-white/20 text-white rounded-lg font-medium text-sm backdrop-blur-sm">
-                      <GithubIcon className="w-4 h-4" />
-                      Source
-                    </span>
+                    {project.liveUrl ? (
+                      <Link href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-4 py-2 bg-white text-primary rounded-lg font-medium text-sm hover:bg-white/90 transition-colors">
+                        <ExternalLink className="w-4 h-4" />
+                        Live Demo
+                      </Link>
+                    ) : (
+                      <span className="inline-flex items-center gap-2 px-4 py-2 bg-white text-primary rounded-lg font-medium text-sm">
+                        <ExternalLink className="w-4 h-4" />
+                        Live Demo
+                      </span>
+                    )}
+                    {project.githubUrl ? (
+                      <Link href={project.githubUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-4 py-2 bg-white/20 text-white rounded-lg font-medium text-sm backdrop-blur-sm hover:bg-white/30 transition-colors">
+                        <GithubIcon className="w-4 h-4" />
+                        Source
+                      </Link>
+                    ) : (
+                      <span className="inline-flex items-center gap-2 px-4 py-2 bg-white/20 text-white rounded-lg font-medium text-sm backdrop-blur-sm">
+                        <GithubIcon className="w-4 h-4" />
+                        Source
+                      </span>
+                    )}
                   </div>
                 </div>
               </div>
