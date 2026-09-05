@@ -11,6 +11,7 @@ export interface AnimatedContainerProps {
   className?: string;
   delay?: number;
   once?: boolean;
+  id?: string;
 }
 
 export function AnimatedContainer({
@@ -20,6 +21,7 @@ export function AnimatedContainer({
   className,
   delay = 0,
   once = true,
+  id,
 }: AnimatedContainerProps) {
   const resolvedVariants =
     variants ||
@@ -28,6 +30,7 @@ export function AnimatedContainer({
 
   return (
     <motion.div
+      id={id}
       variants={resolvedVariants}
       initial="hidden"
       whileInView="visible"
