@@ -9,6 +9,8 @@ import { Sheet, SheetContent, SheetHeader, SheetTitle } from "@/components/ui/sh
 import { mainNavItems } from "@/data/navigation";
 import { siteConfig } from "@/lib/constants";
 import { cn } from "@/lib/utils";
+import { ThemeToggle } from "@/components/theme-toggle";
+import { Button } from "@/components/ui/button";
 
 interface MobileNavProps {
   open: boolean;
@@ -57,6 +59,13 @@ export function MobileNav({ open, onOpenChange }: MobileNavProps) {
                 </Link>
               );
             })}
+          </div>
+
+          <div className="mt-8 flex items-center gap-4">
+            <ThemeToggle />
+            <Button asChild className="flex-1">
+              <Link href="/contact" onClick={() => onOpenChange(false)}>Get Started</Link>
+            </Button>
           </div>
         </nav>
 
