@@ -1,4 +1,13 @@
-# NextWebHosting — Premium Web Development Agency Website
+<div align="center">
+  <img src="./public/github-logo.png" alt="NextWebHosting Logo" width="120" />
+  <h1>NextWebHosting</h1>
+  <p>Premium Web Development Agency Website</p>
+  <img src="./public/github-banner.png" alt="NextWebHosting Banner" width="100%" style="border-radius: 12px; margin-top: 16px;" />
+</div>
+
+<br />
+
+**Live Demo (Vercel):** [https://nextwebhostingdev.vercel.app/](https://nextwebhostingdev.vercel.app/)
 
 A world-class, production-ready website for **NextWebHosting**, built with Next.js 16 (App Router), React 19, TypeScript, Tailwind CSS v4, Framer Motion, and shadcn/Base UI.
 
