@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
@@ -16,6 +16,10 @@ const inter = Inter({
 import { ThemeProvider } from "@/components/theme-provider";
 
 export const metadata: Metadata = constructMetadata();
+
+export const viewport: Viewport = {
+  colorScheme: "light dark",
+};
 
 export default function RootLayout({
   children,
