@@ -3,6 +3,7 @@ import { PageTransition } from "@/components/shared/page-transition";
 import { SectionHeader } from "@/components/shared/section-header";
 import { AnimatedContainer } from "@/components/shared/animated-container";
 import { ContactForm } from "@/components/shared/contact-form";
+import { Suspense } from "react";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
 
 export const metadata = constructMetadata({
@@ -25,7 +26,9 @@ export default function ContactPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 mt-16 max-w-6xl mx-auto">
             <AnimatedContainer delay={0.1}>
               <h2 className="text-2xl font-bold mb-6">Send us a message</h2>
-              <ContactForm />
+              <Suspense fallback={<div className="h-[500px] w-full animate-pulse bg-muted rounded-2xl border border-border/50" />}>
+                <ContactForm />
+              </Suspense>
             </AnimatedContainer>
 
             <AnimatedContainer delay={0.2} className="space-y-8 lg:mt-0 mt-8">

@@ -13,6 +13,8 @@ const inter = Inter({
   variable: "--font-inter",
 });
 
+import { ThemeProvider } from "@/components/theme-provider";
+
 export const metadata: Metadata = constructMetadata();
 
 export default function RootLayout({
@@ -21,30 +23,33 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={inter.variable}>
-      <body className={`${inter.className} antialiased min-h-screen flex flex-col`}>
-        <ScrollProgress />
-        <Header />
-        <div className="flex-1">{children}</div>
-        <Footer />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Organization",
-              name: siteConfig.name,
-              description: siteConfig.description,
-              url: siteConfig.url,
-              email: siteConfig.email,
-              telephone: siteConfig.phone,
-              sameAs: [
-                siteConfig.socials.instagram,
-                siteConfig.socials.twitter,
-              ],
-            }),
-          }}
-        />
+    <html lang="en" className={inter.variable} suppressHydrationWarning>
+      <body className={`${inter.className} antialiased min-h-screen flex flex-col bg-white dark:bg-slate-950 text-slate-900 dark:text-slate-50`}>
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+          <ScrollProgress />
+          <Header />
+          <div className="flex-1">{children}</div>
+          <Footer />
+
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "Organization",
+                name: siteConfig.name,
+                description: siteConfig.description,
+                url: siteConfig.url,
+                email: siteConfig.email,
+                telephone: siteConfig.phone,
+                sameAs: [
+                  siteConfig.socials.instagram,
+                  siteConfig.socials.twitter,
+                ],
+              }),
+            }}
+          />
+        </ThemeProvider>
       </body>
     </html>
   );

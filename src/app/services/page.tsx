@@ -21,43 +21,43 @@ const serviceCategories = [
     title: 'Web Development',
     description: 'Custom websites designed for specific industry needs.',
     services: [
-      { name: 'Business Websites', icon: Briefcase, desc: 'Professional sites to establish your corporate presence.', features: ['Custom Design', 'CMS Integration', 'Mobile Responsive', 'SEO Ready'] },
-      { name: 'Portfolio Websites', icon: LayoutDashboard, desc: 'Showcase your work with stunning portfolio layouts.', features: ['Image Galleries', 'Case Studies', 'Contact Forms', 'Fast Loading'] },
-      { name: 'Landing Pages', icon: Code2, desc: 'High-converting landing pages for your marketing campaigns.', features: ['A/B Testing Ready', 'Lead Capture', 'Analytics Setup', 'Conversion Optimized'] },
-      { name: 'Startup Websites', icon: Rocket, desc: 'Dynamic sites to launch your new venture.', features: ['Scalable Architecture', 'Integration Ready', 'Modern Tech Stack', 'MVP Focused'] },
-      { name: 'Restaurant Sites', icon: Utensils, desc: 'Appetizing designs with menu and reservation features.', features: ['Online Menus', 'Reservation System', 'Location Maps', 'Social Media Integration'] },
-      { name: 'Real Estate Sites', icon: Building2, desc: 'Property listings with advanced search capabilities.', features: ['Property Search', 'Virtual Tours', 'Agent Profiles', 'Lead Generation'] },
-      { name: 'Gym & Fitness', icon: Dumbbell, desc: 'Energetic designs with class schedules and booking.', features: ['Class Schedules', 'Membership Portal', 'Trainer Profiles', 'Video Integration'] },
-      { name: 'Dental Clinics', icon: Stethoscope, desc: 'Professional sites with appointment scheduling.', features: ['Appointment Booking', 'Patient Forms', 'Service Pages', 'Review Integration'] },
-      { name: 'Law Firms', icon: Scale, desc: 'Trust-building designs for legal practices.', features: ['Practice Areas', 'Attorney Profiles', 'Secure Contact', 'Client Portal'] },
-      { name: 'Educational Sites', icon: GraduationCap, desc: 'Platforms for schools, courses, and e-learning.', features: ['Course Catalogs', 'Student Portal', 'Event Calendars', 'LMS Integration'] },
-      { name: 'Corporate Sites', icon: Building, desc: 'Enterprise-grade websites for large organizations.', features: ['Multi-language', 'Complex Architecture', 'Strict Security', 'Compliance Ready'] },
+      { id: 'business', name: 'Business Websites', icon: Briefcase, desc: 'Professional sites to establish your corporate presence.', features: ['Custom Design', 'CMS Integration', 'Mobile Responsive', 'SEO Ready'] },
+      { id: 'portfolio', name: 'Portfolio Websites', icon: LayoutDashboard, desc: 'Showcase your work with stunning portfolio layouts.', features: ['Image Galleries', 'Case Studies', 'Contact Forms', 'Fast Loading'] },
+      { id: 'landing', name: 'Landing Pages', icon: Code2, desc: 'High-converting landing pages for your marketing campaigns.', features: ['A/B Testing Ready', 'Lead Capture', 'Analytics Setup', 'Conversion Optimized'] },
+      { id: 'startup', name: 'Startup Websites', icon: Rocket, desc: 'Dynamic sites to launch your new venture.', features: ['Scalable Architecture', 'Integration Ready', 'Modern Tech Stack', 'MVP Focused'] },
+      { id: 'restaurant', name: 'Restaurant Sites', icon: Utensils, desc: 'Appetizing designs with menu and reservation features.', features: ['Online Menus', 'Reservation System', 'Location Maps', 'Social Media Integration'] },
+      { id: 'real-estate', name: 'Real Estate Sites', icon: Building2, desc: 'Property listings with advanced search capabilities.', features: ['Property Search', 'Virtual Tours', 'Agent Profiles', 'Lead Generation'] },
+      { id: 'gym', name: 'Gym & Fitness', icon: Dumbbell, desc: 'Energetic designs with class schedules and booking.', features: ['Class Schedules', 'Membership Portal', 'Trainer Profiles', 'Video Integration'] },
+      { id: 'dental', name: 'Dental Clinics', icon: Stethoscope, desc: 'Professional sites with appointment scheduling.', features: ['Appointment Booking', 'Patient Forms', 'Service Pages', 'Review Integration'] },
+      { id: 'law', name: 'Law Firms', icon: Scale, desc: 'Trust-building designs for legal practices.', features: ['Practice Areas', 'Attorney Profiles', 'Secure Contact', 'Client Portal'] },
+      { id: 'educational', name: 'Educational Sites', icon: GraduationCap, desc: 'Platforms for schools, courses, and e-learning.', features: ['Course Catalogs', 'Student Portal', 'Event Calendars', 'LMS Integration'] },
+      { id: 'corporate', name: 'Corporate Sites', icon: Building, desc: 'Enterprise-grade websites for large organizations.', features: ['Multi-language', 'Complex Architecture', 'Strict Security', 'Compliance Ready'] },
     ]
   },
   {
     title: 'Development Services',
     description: 'Keep your website fresh, secure, and up-to-date.',
     services: [
-      { name: 'Website Redesign', icon: Paintbrush, desc: 'Modernize your outdated website.', features: ['UX/UI Audit', 'Brand Refresh', 'Content Migration', 'Performance Boost'] },
-      { name: 'Maintenance', icon: Wrench, desc: 'Ongoing support and technical updates.', features: ['Security Patches', 'Regular Backups', 'Uptime Monitoring', 'Content Updates'] },
+      { id: 'redesign', name: 'Website Redesign', icon: Paintbrush, desc: 'Modernize your outdated website.', features: ['UX/UI Audit', 'Brand Refresh', 'Content Migration', 'Performance Boost'] },
+      { id: 'maintenance', name: 'Maintenance', icon: Wrench, desc: 'Ongoing support and technical updates.', features: ['Security Patches', 'Regular Backups', 'Uptime Monitoring', 'Content Updates'] },
     ]
   },
   {
     title: 'Optimization',
     description: 'Improve visibility and speed.',
     services: [
-      { name: 'SEO Optimization', icon: Search, desc: 'Rank higher on search engines.', features: ['Keyword Research', 'On-page SEO', 'Technical SEO', 'Performance Tracking'] },
-      { name: 'Performance Tuning', icon: Zap, desc: 'Lightning-fast load times.', features: ['Image Optimization', 'Code Minification', 'Caching Setup', 'Core Web Vitals'] },
+      { id: 'seo', name: 'SEO Optimization', icon: Search, desc: 'Rank higher on search engines.', features: ['Keyword Research', 'On-page SEO', 'Technical SEO', 'Performance Tracking'] },
+      { id: 'performance', name: 'Performance Tuning', icon: Zap, desc: 'Lightning-fast load times.', features: ['Image Optimization', 'Code Minification', 'Caching Setup', 'Core Web Vitals'] },
     ]
   },
   {
     title: 'Infrastructure',
     description: 'Solid foundation for your digital presence.',
     services: [
-      { name: 'Deployment', icon: Box, desc: 'Smooth transition from development to live.', features: ['CI/CD Pipeline', 'Staging Environment', 'Zero Downtime', 'Version Control'] },
-      { name: 'Cloud Hosting', icon: Server, desc: 'Reliable and scalable hosting solutions.', features: ['High Availability', 'Auto-scaling', 'DDoS Protection', 'SSL Certificates'] },
-      { name: 'Domain Management', icon: Globe, desc: 'Hassle-free domain registration and DNS.', features: ['Domain Registration', 'DNS Configuration', 'Email Setup', 'Renewals'] },
-      { name: 'Consultation', icon: HeadphonesIcon, desc: 'Expert advice for your digital strategy.', features: ['Tech Stack Review', 'Architecture Planning', 'Security Audit', 'Growth Strategy'] },
+      { id: 'deployment', name: 'Deployment', icon: Box, desc: 'Smooth transition from development to live.', features: ['CI/CD Pipeline', 'Staging Environment', 'Zero Downtime', 'Version Control'] },
+      { id: 'hosting', name: 'Cloud Hosting', icon: Server, desc: 'Reliable and scalable hosting solutions.', features: ['High Availability', 'Auto-scaling', 'DDoS Protection', 'SSL Certificates'] },
+      { id: 'domain', name: 'Domain Management', icon: Globe, desc: 'Hassle-free domain registration and DNS.', features: ['Domain Registration', 'DNS Configuration', 'Email Setup', 'Renewals'] },
+      { id: 'consultation', name: 'Consultation', icon: HeadphonesIcon, desc: 'Expert advice for your digital strategy.', features: ['Tech Stack Review', 'Architecture Planning', 'Security Audit', 'Growth Strategy'] },
     ]
   }
 ];
@@ -85,24 +85,25 @@ export default function ServicesPage() {
               <SectionHeader 
                 title={category.title} 
                 description={category.description} 
-                align="left"
+                align="center"
               />
               
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
                 {category.services.map((service, idx) => (
                   <AnimatedContainer 
+                    id={service.id}
                     key={idx} 
                     animation="fadeInUp" 
                     delay={idx * 0.1}
-                    className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow"
+                    className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow flex flex-col h-full"
                   >
-                    <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center text-primary mb-4">
+                    <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center text-primary mb-4 shrink-0">
                       <service.icon className="w-6 h-6" />
                     </div>
                     <h3 className="text-xl font-semibold mb-2 text-slate-900 dark:text-white">
                       {service.name}
                     </h3>
-                    <p className="text-slate-600 dark:text-slate-400 mb-6 text-sm">
+                    <p className="text-slate-600 dark:text-slate-400 mb-6 text-sm flex-grow">
                       {service.desc}
                     </p>
                     <ul className="space-y-2">

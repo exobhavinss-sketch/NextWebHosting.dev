@@ -41,7 +41,10 @@ export function SectionHeader({ badge, title, description, align = "center", cla
       {description && (
         <motion.p
           variants={fadeInUp}
-          className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed"
+          className={cn(
+            "mt-4 text-lg text-muted-foreground leading-relaxed",
+            align === "center" ? "max-w-2xl mx-auto" : "max-w-2xl"
+          )}
         >
           {description}
         </motion.p>

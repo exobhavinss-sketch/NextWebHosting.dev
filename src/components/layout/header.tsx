@@ -13,6 +13,7 @@ import { mainNavItems } from "@/data/navigation";
 import { siteConfig } from "@/lib/constants";
 import { MobileNav } from "./mobile-nav";
 import { cn } from "@/lib/utils";
+import { ThemeToggle } from "@/components/theme-toggle";
 
 export function Header() {
   const pathname = usePathname();
@@ -82,7 +83,8 @@ export function Header() {
             })}
           </nav>
 
-          <div className="hidden lg:flex items-center">
+          <div className="hidden lg:flex items-center gap-4">
+            <ThemeToggle />
             <Button asChild>
               <Link href="/contact">Get Started</Link>
             </Button>

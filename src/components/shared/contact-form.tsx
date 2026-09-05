@@ -9,13 +9,15 @@ import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { Send } from "lucide-react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useSearchParams } from "next/navigation";
 
 const contactSchema = z.object({
   name: z.string().min(2, "Name must be at least 2 characters"),
   email: z.string().email("Please enter a valid email address"),
   subject: z.string().min(5, "Subject must be at least 5 characters"),
   message: z.string().min(20, "Message must be at least 20 characters"),
+  studentId: z.string().optional(),
 });
 
 export type ContactFormData = z.infer<typeof contactSchema>;
@@ -23,14 +25,25 @@ export type ContactFormData = z.infer<typeof contactSchema>;
 export function ContactForm() {
   const [isSubmitted, setIsSubmitted] = useState(false);
 
+  const searchParams = useSearchParams();
+  const plan = searchParams?.get("plan");
+  const isStudentPlan = plan === "student";
+
   const {
     register,
     handleSubmit,
     reset,
+    setValue,
     formState: { errors, isSubmitting },
   } = useForm<ContactFormData>({
     resolver: zodResolver(contactSchema),
   });
+
+  useEffect(() => {
+    if (plan) {
+      setValue("subject", `Inquiry for ${plan.charAt(0).toUpperCase() + plan.slice(1)} Plan`);
+    }
+  }, [plan, setValue]);
 
   const onSubmit = async (data: ContactFormData) => {
     // In production, integrate with Resend or EmailJS
@@ -45,6 +58,13 @@ export function ContactForm() {
       onSubmit={handleSubmit(onSubmit)}
       className="bg-background rounded-2xl p-8 border border-border/50 shadow-sm space-y-6 w-full"
     >
+      {isStudentPlan && (
+        <div className="bg-primary/10 border border-primary/20 text-primary p-4 rounded-xl text-sm mb-2">
+          <p className="font-semibold mb-1">Student Verification Required</p>
+          <p>Please use your university <strong>.edu</strong> email address OR provide your Student ID Number below. We will verify your student status before proceeding with the Student Plan.</p>
+        </div>
+      )}
+
       <div className="grid sm:grid-cols-2 gap-6">
         <div className="space-y-2">
           <Label htmlFor="name">Full Name</Label>
@@ -94,6 +114,18 @@ export function ContactForm() {
           </p>
         )}
       </div>
+
+      {isStudentPlan && (
+        <div className="space-y-2">
+          <Label htmlFor="studentId">Student ID Number <span className="text-muted-foreground font-normal">(Optional if using .edu email)</span></Label>
+          <Input
+            id="studentId"
+            placeholder="e.g. 12345678"
+            {...register("studentId")}
+            className="h-12"
+          />
+        </div>
+      )}
 
       <div className="space-y-2">
         <Label htmlFor="message">Message</Label>

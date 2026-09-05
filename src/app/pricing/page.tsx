@@ -14,8 +14,22 @@ export const metadata = constructMetadata({
 
 const pricingTiers = [
   {
+    name: "Student",
+    price: "₹5,000",
+    description: "Affordable and straightforward for students to build their personal portfolio or project site.",
+    features: [
+      "Up to 3 Pages",
+      "Responsive Design",
+      "Basic Contact Form",
+      "Standard Performance",
+      "14 Days Free Support",
+    ],
+    cta: "Get Student Plan",
+    highlight: false,
+  },
+  {
     name: "Starter",
-    price: "₹15,000",
+    price: "₹10,000",
     description: "Perfect for small businesses and individuals getting started.",
     features: [
       "Up to 5 Pages",
@@ -32,7 +46,7 @@ const pricingTiers = [
   },
   {
     name: "Professional",
-    price: "₹35,000",
+    price: "₹30,000",
     description: "Ideal for growing businesses needing a strong online presence.",
     features: [
       "Up to 10 Pages",
@@ -52,8 +66,8 @@ const pricingTiers = [
   },
   {
     name: "Enterprise",
-    price: "₹75,000+",
-    description: "For large scale applications and complex requirements.",
+    price: "Custom Quote",
+    description: "Prices will be quoted after evaluating the specific requirements of the client.",
     features: [
       "Unlimited Pages",
       "Full Custom Web Application",
@@ -77,14 +91,14 @@ export default function PricingPage() {
   return (
     <PageTransition>
       <main className="flex min-h-screen flex-col pt-24 pb-16">
-        <section className="container mx-auto px-4 md:px-6 py-12 md:py-24 lg:py-32">
+        <section className="container mx-auto px-4 md:px-6 pt-8 pb-12 md:pt-12 md:pb-24 lg:pt-16 lg:pb-32">
           <SectionHeader
             title="Simple, Transparent Pricing"
             description="Choose the perfect plan for your business needs. No hidden fees."
             align="center"
           />
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12 max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12 max-w-7xl mx-auto">
             {pricingTiers.map((tier, index) => (
               <AnimatedContainer
                 key={tier.name}
@@ -126,7 +140,7 @@ export default function PricingPage() {
                   variant={tier.highlight ? "default" : "outline"}
                   className="w-full mt-auto"
                 >
-                  <Link href="/contact">{tier.cta}</Link>
+                  <Link href={tier.name === "Student" ? "/contact?plan=student" : "/contact"}>{tier.cta}</Link>
                 </Button>
               </AnimatedContainer>
             ))}

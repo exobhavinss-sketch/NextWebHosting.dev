@@ -130,6 +130,7 @@ export default function PortfolioClient() {
 
       {/* Projects Grid */}
       <motion.div
+        key={activeCategory}
         variants={staggerContainer}
         initial="hidden"
         whileInView="visible"
