@@ -49,9 +49,9 @@ export function Header() {
         )}
       >
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-2 z-50">
-            <Image src="/logo.png" alt="NextWebHosting Logo" width={32} height={32} className="rounded-lg" />
-            <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-sky-400">
+          <Link href="/" className="flex items-center gap-2 z-50 shrink-0">
+            <Image src="/logo.png" alt="NextWebHosting Logo" width={32} height={32} className="rounded-lg w-7 h-7 sm:w-8 sm:h-8 shrink-0" />
+            <span className="text-lg sm:text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-sky-400 hidden min-[380px]:block">
               NextWebHosting
             </span>
           </Link>
@@ -83,20 +83,21 @@ export function Header() {
             })}
           </nav>
 
-          <div className="hidden lg:flex items-center gap-4">
-            <ThemeToggle />
-            <Button asChild>
+          <div className="flex items-center gap-2 sm:gap-4">
+            <div className="scale-90 sm:scale-100 flex items-center shrink-0">
+              <ThemeToggle />
+            </div>
+            <Button asChild size="sm" className="h-8 text-xs px-3 sm:h-10 sm:text-sm sm:px-4 shrink-0">
               <Link href="/contact">Get Started</Link>
             </Button>
+            <button
+              className="lg:hidden p-1 sm:p-2 -mr-2 text-foreground/80 hover:text-foreground transition-colors shrink-0"
+              onClick={() => setMobileMenuOpen(true)}
+              aria-label="Open menu"
+            >
+              <Menu className="w-6 h-6" />
+            </button>
           </div>
-
-          <button
-            className="lg:hidden p-2 -mr-2 text-foreground/80 hover:text-foreground transition-colors"
-            onClick={() => setMobileMenuOpen(true)}
-            aria-label="Open menu"
-          >
-            <Menu className="w-6 h-6" />
-          </button>
         </div>
       </motion.header>
 
