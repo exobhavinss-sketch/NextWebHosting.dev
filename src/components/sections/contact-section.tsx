@@ -12,38 +12,10 @@ import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { Mail, Phone, MapPin, Send } from "lucide-react";
 import { InstagramIcon } from "@/components/shared/brand-icons";
-import { useState } from "react";
-
-const contactSchema = z.object({
-  name: z.string().min(2, "Name must be at least 2 characters"),
-  email: z.string().email("Please enter a valid email address"),
-  subject: z.string().min(5, "Subject must be at least 5 characters"),
-  message: z.string().min(20, "Message must be at least 20 characters"),
-});
-
-type ContactFormData = z.infer<typeof contactSchema>;
-
+import { Suspense } from "react";
 import { ContactForm } from "@/components/shared/contact-form";
 
 export function ContactSection() {
-  const [isSubmitted, setIsSubmitted] = useState(false);
-
-  const {
-    register,
-    handleSubmit,
-    reset,
-    formState: { errors, isSubmitting },
-  } = useForm<ContactFormData>({
-    resolver: zodResolver(contactSchema),
-  });
-
-  const onSubmit = async (data: ContactFormData) => {
-    // In production, integrate with Resend or EmailJS
-    console.log("Form submitted:", data);
-    setIsSubmitted(true);
-    reset();
-    setTimeout(() => setIsSubmitted(false), 5000);
-  };
 
   return (
     <section className="py-24 lg:py-32 bg-secondary/5" id="contact-form">
@@ -128,7 +100,9 @@ export function ContactSection() {
             viewport={{ once: true }}
             className="lg:col-span-3"
           >
-            <ContactForm />
+            <Suspense fallback={<div className="h-[500px] w-full animate-pulse bg-muted rounded-2xl border border-border/50" />}>
+              <ContactForm />
+            </Suspense>
           </motion.div>
         </div>
       </div>
