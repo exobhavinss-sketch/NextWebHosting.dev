@@ -166,8 +166,8 @@ export function FeaturedProjects() {
                   </span>
                 </div>
 
-                {/* Hover overlay */}
-                <div className="absolute inset-0 bg-primary/80 opacity-0 group-hover:opacity-90 transition-opacity duration-500 flex items-center justify-center">
+                {/* Hover overlay - Desktop only */}
+                <div className="absolute inset-0 bg-primary/80 opacity-0 hidden md:flex group-hover:opacity-90 transition-opacity duration-500 items-center justify-center">
                   <div className="flex gap-4">
                     {project.liveUrl ? (
                       <Link href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-4 py-2 bg-white text-primary rounded-lg font-medium text-sm hover:bg-white/90 transition-colors">
@@ -205,7 +205,7 @@ export function FeaturedProjects() {
                 </p>
 
                 {/* Tech tags */}
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap gap-2 mb-4">
                   {project.technologies.map((tech) => (
                     <span
                       key={tech}
@@ -214,6 +214,32 @@ export function FeaturedProjects() {
                       {tech}
                     </span>
                   ))}
+                </div>
+
+                {/* Action buttons - Mobile only */}
+                <div className="flex flex-wrap gap-3 md:hidden mt-2">
+                  {project.liveUrl ? (
+                    <Link href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-primary-foreground rounded-lg font-medium text-sm hover:bg-primary/90 transition-colors flex-1 justify-center">
+                      <ExternalLink className="w-4 h-4" />
+                      Live Demo
+                    </Link>
+                  ) : (
+                    <span className="inline-flex items-center gap-2 px-4 py-2 bg-primary/50 text-primary-foreground/50 rounded-lg font-medium text-sm flex-1 justify-center">
+                      <ExternalLink className="w-4 h-4" />
+                      Live Demo
+                    </span>
+                  )}
+                  {project.githubUrl ? (
+                    <Link href={project.githubUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-4 py-2 bg-secondary text-secondary-foreground rounded-lg font-medium text-sm hover:bg-secondary/80 transition-colors flex-1 justify-center">
+                      <GithubIcon className="w-4 h-4" />
+                      Source
+                    </Link>
+                  ) : (
+                    <span className="inline-flex items-center gap-2 px-4 py-2 bg-secondary/50 text-secondary-foreground/50 rounded-lg font-medium text-sm flex-1 justify-center">
+                      <GithubIcon className="w-4 h-4" />
+                      Source
+                    </span>
+                  )}
                 </div>
               </div>
             </motion.div>

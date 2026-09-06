@@ -153,7 +153,7 @@ export default function PortfolioClient() {
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
                 sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
               />
-              <div className="absolute inset-0 bg-primary/80 opacity-0 group-hover:opacity-90 transition-opacity duration-500 flex items-center justify-center gap-4">
+              <div className="absolute inset-0 bg-primary/80 opacity-0 hidden md:flex group-hover:opacity-90 transition-opacity duration-500 items-center justify-center gap-4">
                 <a
                   href={project.liveUrl}
                   className="p-3 bg-white text-primary rounded-full hover:bg-white/90 transition-colors"
@@ -217,6 +217,24 @@ export default function PortfolioClient() {
                       </li>
                     ))}
                   </ul>
+                </div>
+
+                {/* Mobile action buttons */}
+                <div className="flex md:hidden gap-3 mt-4 pt-4 border-t border-border/50">
+                  <a
+                    href={project.liveUrl}
+                    className="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2 bg-primary text-primary-foreground rounded-lg font-medium text-sm"
+                  >
+                    <ExternalLink className="w-4 h-4" />
+                    Live Demo
+                  </a>
+                  <a
+                    href={project.githubUrl}
+                    className="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2 bg-secondary text-secondary-foreground rounded-lg font-medium text-sm"
+                  >
+                    <GithubIcon className="w-4 h-4" />
+                    Source
+                  </a>
                 </div>
               </div>
             </div>
